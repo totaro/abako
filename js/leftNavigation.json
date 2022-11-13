@@ -1,0 +1,27 @@
+[
+  {
+    "id": 0,
+    "label": "Home",
+    "url": "/"
+  },
+  {
+    "id": 1,
+    "label": "Products",
+    "url": "/products"
+  },
+  {
+    "id": 3,
+    "label": "Articles",
+    "url": "/articles"
+  },
+  {
+    "id": 4,
+    "label": "Blogs",
+    "url": "/blogs"
+  },
+  {
+    "id": 5,
+    "label": "No page",
+    "url": "/empty"
+  }
+]
