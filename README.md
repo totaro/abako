@@ -9,3 +9,5 @@ Tehtävänanto
 3. Käyttää ulkoista tietolähdettä JavaScriptillä. Vasemmassa palstassa näkyvä navigaatio muuttuu usein; tavoitteena on selvittää ohjelmoijan kyky hyödyntää ulkoista dataa webbisivulla, eli tässä tapauksessa sen avulla navigaation rakentamiseen. Luo kuvan mukainen navigaatio ulkoiseen tiedostoon, ja näytä se sivustolla valitsemallasi tavalla.
 
 4. Käyttää vähintään yhtä Web Componenttia jonkin sivulla toistuvan HTML-rakenteen kapselointiin custom elementiksi.
+
+<img src="screenshots/rekryintra.png">
