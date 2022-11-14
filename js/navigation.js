@@ -46,6 +46,6 @@ const navigation = [
 
 navigation.map((item) =>
   document.write(
-    `<div class="right-navi"><a href=${item.url} key=${item.id}>${item.label}</a></div>`
+    `<a href=${item.url} key=${item.id}><div class="right-navi">${item.label}</div></a>`
   )
 );

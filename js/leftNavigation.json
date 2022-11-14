@@ -1,27 +1,43 @@
 [
   {
     "id": 0,
-    "label": "Home",
-    "url": "/"
+    "label": "Yleistä",
+    "url": "/yleista"
   },
   {
     "id": 1,
-    "label": "Products",
-    "url": "/products"
+    "label": "Tulipalot",
+    "url": "/tulipalot"
+  },
+
+  {
+    "id": 2,
+    "label": "Autokolarit",
+    "url": "/autokolarit"
   },
   {
     "id": 3,
-    "label": "Articles",
-    "url": "/articles"
+    "label": "Onnettomuudet",
+    "url": "/onnettomuudet"
   },
   {
     "id": 4,
-    "label": "Blogs",
-    "url": "/blogs"
+    "label": "Henkilövahingot",
+    "url": "/henkilovahingot"
   },
   {
     "id": 5,
-    "label": "No page",
-    "url": "/empty"
+    "label": "Luonnonmullistukset",
+    "url": "/luonnonmullistukset"
+  },
+  {
+    "id": 6,
+    "label": "Kääntövirheet",
+    "url": "/kaantovirheet"
+  },
+  {
+    "id": 7,
+    "label": "Murrot",
+    "url": "/murrot"
   }
 ]
