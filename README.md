@@ -1,4 +1,4 @@
-# abako - Rekrytointitesti
+# Abako - Recruitment Assignment
 
 Tehtävänanto
 
