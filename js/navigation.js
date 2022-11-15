@@ -1,51 +1,9 @@
-const navigation = [
-  {
-    id: 0,
-    label: "Yleistä",
-    url: "/yleista",
-  },
-  {
-    id: 1,
-    label: "Tulipalot",
-    url: "/tulipalot",
-  },
+import navigation from "../json/leftNavigation.json" assert { type: "json" };
 
-  {
-    id: 2,
-    label: "Autokolarit",
-    url: "/autokolarit",
-  },
-  {
-    id: 3,
-    label: "Onnettomuudet",
-    url: "/onnettomuudet",
-  },
-  {
-    id: 4,
-    label: "Henkilövahingot",
-    url: "/henkilovahingot",
-  },
-  {
-    id: 5,
-    label: "Luonnonmullistukset",
-    url: "/luonnonmullistukset",
-  },
-  {
-    id: 6,
-    label: "Kääntövirheet",
-    url: "/kaantovirheet",
-  },
-  {
-    id: 7,
-    label: "Murrot",
-    url: "/murrot",
-  },
-];
-
-// import navigation from "./leftNavigation.json" assert { type: "json" };
-
-navigation.map((item) =>
-  document.write(
-    `<a href=${item.url} key=${item.id}><div class="right-navi">${item.label}</div></a>`
-  )
+let navigationrows = "";
+navigation.map(
+  (item) =>
+    (navigationrows += `<a href=${item.url} key=${item.id}><div class="right-navi">${item.label}</div></a>`)
 );
+
+document.getElementById("leftnavigation").innerHTML = navigationrows;
