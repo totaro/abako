@@ -6,7 +6,7 @@
     <meta name="author" content="https://github.com/totaro" />
     <meta
       name="keywords"
-      content="HTML, CSS, JavaScript, Bootstrap, Font Awesome, Web Components"
+      content="HTML, CSS, JavaScript, JSON, Bootstrap, Font Awesome, Web Components"
     />
     <title>Abako — Recruitment Assignment</title>
     <!-- Bootstrap -->
@@ -43,10 +43,10 @@
         </div>
       </div>
     </nav>
-    <!-- <h1>Hello, world!</h1> -->
+
     <div class="container text-color">
       <div class="row">
-        <div class="col-10" style="border: 0px solid black">
+        <div class="col-10">
           <div class="row breadcrumbs-bg">
             <div>
               Etusivu <i class="fa fa-caret-right"></i> Kirjasto
@@ -59,10 +59,13 @@
             </div>
           </div>
           <div class="row row-padding-top">
-            <div class="col-2 align-left" style="border: 0px solid black">
-              <script type="text/javascript" src="js/navigation.js"></script>
+            <div class="col-2 align-left">
+              <!-- left navigation from ./js/navigation.js and 
+                with external data source: ./json/leftNavigation.json -->
+              <script type="module" src="./js/navigation.js"></script>
+              <div id="leftnavigation"></div>
             </div>
-            <div class="col-10" style="border: 0px solid black">
+            <div class="col-10">
               <div class="row"><h3>Tulipalot</h3></div>
               <div class="row light-bg">
                 <div class="row">
@@ -81,7 +84,7 @@
                     class="float-left article-image"
                   />Jukolan talo, eteläisessä Hämeessä, seisoo erään mäen
                   pohjoisella rinteellä, liki Toukolan kylää. Sen läheisin
-                  ym­päristö on kivinen tanner, mutta alempana alkaa pellot,
+                  ympäristö on kivinen tanner, mutta alempana alkaa pellot,
                   joissa, ennenkuin talo oli häviöön mennyt, aaltoili teräinen
                   vilja. Peltojen alla on niittu, apilaäyräinen, halkileikkaama
                   monipolvisen ojan; ja runsaasti antoi se heiniä, ennenkuin
@@ -113,12 +116,12 @@
                   hampunkarvainen tukkansa, jonka karheus etenkin Juhanilla on
                   silmään pistävä.
                 </p>
-                <hr style="width: 30%" />
+                <hr class="hr-text-highlight" />
                 <p class="text-highlight">
                   Veljesten nimet vanhimmasta nuorimpaan ovat:<br />Juhani,
                   Tuomas, Aapo, Simeoni, Timo, Lauri ja Eero.
                 </p>
-                <hr style="width: 30%" />
+                <hr class="hr-text-highlight" />
 
                 <p>
                   Heidän isäänsä, joka oli ankaran innokas metsämies, kohtasi
@@ -129,7 +132,7 @@
                   oli mies haavoitettu, mutta pedonkin sekä kurkku että kylki
                   nähtiin puukon viiltämänä ja hänen rintansa kiväärin tuiman
                   luodin lävistämänä. Niin lopetti päivänsä roteva mies, joka
-                  oli kaatanut enemmän kuin viisikymmentä karhua. ­ Mutta näiden
+                  oli kaatanut enemmän kuin viisikymmentä karhua. Mutta näiden
                   metsäretkiensä kautta löi hän laimin työn ja toimen
                   talossansa, joka vähitellen, ilman esimiehen johtoa, joutui
                   rappiolle. Eivät kyenneet hänen poikansakaan kyntöön ja
@@ -170,10 +173,7 @@
           </div>
         </div>
 
-        <div
-          class="col-2 right-column-bg padding-right padding-left"
-          style="border: 0px solid black"
-        >
+        <div class="col-2 right-column-bg padding-right padding-left">
           <script type="text/javascript">
             const ajassaNavigation = [
               {
