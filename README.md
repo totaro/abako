@@ -23,8 +23,8 @@ joten ensin opiskelua mitä tarvitaan sivuston luomiseen. Tämän jälkeen tein 
 näen ja ymmärrän miten Bootstrap toiminnan.
 
 2. Tämän jälkeen kokosin haluttua mallikuvaa mukaillen sivupohjan pelkistetyn gridin jotta sain kaikki sivuston elementit
-oikeille paikoilleen. Tässä itselleni apuna laitoin tiettyihin pääelementteihin (<div class="container">, <div class="row">
-sekä <div class="col-sm">) väliaikaiset inline tyylit (border: 1px solid black) jolla hahmotin että missä minkäkin elementin
+oikeille paikoilleen. Tässä itselleni apuna laitoin tiettyihin pääelementteihin (```<div class="container">, <div class="row">```
+sekä ```<div class="col-sm">```) väliaikaiset inline tyylit (border: 1px solid black) jolla hahmotin että missä minkäkin elementin
 pitää olla ja onko elementin oikeilla paikoillaan. Seuraavana lisäsin sivupohjaan header ja footer elementit.
 
 3. Seuraavana työvaiheena oli sivun vasemmassa ja oikeassa reunassa olevat navigaatioden lisääminen javacriptilla suoraan
@@ -45,12 +45,12 @@ osioon, Oikeat ikonit Turvallisuusohjeet 2020 -otsikon eteen sekä artikkelin ki
 
 7. Oikeiden ikonien lisääminen oikeassa reunassa olevaan navigaatioon oli seuraava työvaihe. Lisäsin JSON -dataan uuden
 key/value -parin johon lisäsin halutun ikonin haluttuun navigation kohtaan (esim. fa: "fa-desktop") ja tulostin sen
-.map() funktioon (<i class="fa ${item.fa}"></i>).
+.map() funktioon (```<i class="fa ${item.fa}"></i>```).
 
 8. Web Componentit olivat minulle suht uusi asia eli en ollut niitä itse tehnyt. Tehtävänantona oli tehdä toistuvan
 HTML-rakenteen custom elementti. Tutustumisen ja opiskelun kautta tein kaksi peruskomponenttiä jotka toistuvat
-sivupohjassa eli headerissa oleva firman nimi Abako (<abako-home></abako-home>) sekä footerissä oleva Abakon
-yhteystiedot (<abako-connect-info></abako-connect-info>).
+sivupohjassa eli headerissa oleva firman nimi Abako (```<abako-home></abako-home>```) sekä footerissä oleva Abakon
+yhteystiedot (```<abako-connect-info></abako-connect-info>```).
 
 9. Viimeisenä isompana tehtävä oli saada vasemmanreunan navigaation tiedot tulemaan ulkoisesta tietolähteestä eli
 päätin että tämä ulkoinen tietolähde on erillinen json -tiedosto. Tässä oli monenlaista ongelmaan pitkin tätä projektia
