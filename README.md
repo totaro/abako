@@ -1,4 +1,4 @@
-# Recruitment Assignment (UX/UI/Frontend)
+# Assignment (UX/UI/Frontend)
 
 Tehtävänanto
 
