@@ -1,4 +1,4 @@
-# Abako - Recruitment Assignment
+# Recruitment Assignment (UX/UI/Frontend)
 
 Tehtävänanto
 
